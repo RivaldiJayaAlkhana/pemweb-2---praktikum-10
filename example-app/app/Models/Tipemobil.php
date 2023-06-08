@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Tipemobil extends Model
 {
     use HasFactory;
+
+    protected $table = "tipemobils";
+
+    protected $fillable = [
+        'tipe'
+    ];
 }
